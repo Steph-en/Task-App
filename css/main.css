@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #F2F2F2;
+  background: peach;
   margin: 0;
   font-family: 'Poppins';
 }
@@ -45,9 +45,9 @@ a {
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+list-style-type: none;
+margin: 0;
+padding: 0;
 }
 
 section {
@@ -107,7 +107,7 @@ ul.features-list {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 }
 
 ul.features-list li {
@@ -171,7 +171,7 @@ input, textarea {
   border-radius: .3em;
   border: 1px solid gray;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 input[type="submit"] {
@@ -239,18 +239,18 @@ nav li a:hover {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 180px auto;
-        grid-template-columns: 180px auto;
+    grid-template-columns: 180px auto;
     -webkit-box-pack: unset;
-        -ms-flex-pack: unset;
-            justify-content: unset;
+    -ms-flex-pack: unset;
+    justify-content: unset;
   }
   .navbar nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     background: none;
     position: unset;
     height: auto;
